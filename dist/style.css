@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+#wrapper {}
+
+#menuBar {
+  width: 100%;
+  height: 40px;
+  background-color: #00f7ff;
+  border-bottom: 1px solid rgb(190, 120, 255);
+}
+
+#logo {
+  padding: 5px 0 0 20px;
+  font-weight: bold;
+  font-size: 120%;
+  float: left;
+}
+
+#buttonDiv {
+  float: right;
+  padding: 5px 10px 0 0;
+}
+
+#runButton {
+  font-size: 120%;
+}
+
+#toggles {
+  width: 199.9px;
+  margin: 0 auto;
+  list-style: none;
+  border: 1px solid rgb(226, 98, 243);
+  border-radius: 3px;
+  height: 27px;
+  padding: 0;
+  position: relative;
+  top: 5px;
+}
+
+#toggles ul {}
+
+#toggles li {
+  float: left;
+  border-right: 1px solid rgb(216, 62, 255);
+  padding: 5px 7px;
+}
+
+.break {
+  clear: both;
+}
+
+.codeContainer {
+  height: 100%;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+#htmlContainer {}
+
+.codeContainer textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid rgb(186, 78, 236);
+  font-family: monotype;
+  font-size: 90%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.codeLabel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#CSSContainer,
+#JSContainer {
+  display: none;
+}
+
+#ResultContainer {}
+
+iframe {
+  height: 100%;
+  position: relative;
+  left: 20px;
+  border: none;
+}
+
+.selected {
+  background-color: rgb(216, 81, 243);
+}

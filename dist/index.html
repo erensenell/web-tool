@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - code tool by aleyna</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+
+        <div id="menuBar">
+      
+          <div id="logo">
+      
+            Aleyna Web Tool
+      
+          </div>
+      
+          <div id="buttonDiv">
+      
+            <button id="runButton">çalıştır</button>
+      
+          </div>
+      
+          <ul id="toggles">
+      
+            <li class="toggle selected">HTML</li>
+            <li class="toggle">CSS</li>
+            <li class="toggle">JS</li>
+            <li class="toggle selected" style="border:none">göster</li>
+      
+          </ul>
+      
+        </div>
+      
+        <div class="break"></div>
+      
+        <div class="codeContainer" id="HTMLContainer">
+      
+          <div class="codeLabel">HTML</div>
+      
+          <textarea id="htmlCode">Örnek Kod...</textarea>
+      
+        </div>
+      
+        <div class="codeContainer" id="CSSContainer">
+      
+          <div class="codeLabel">CSS</div>
+      
+          <textarea id="cssCode">Örnek Kod...</textarea>
+      
+        </div>
+      
+        <div class="codeContainer" id="JSContainer">
+      
+          <div class="codeLabel">JS</div>
+      
+          <textarea id="jsCode">Örnek Kod...</textarea>
+      
+        </div>
+      
+        <div class="codeContainer" id="ResultContainer">
+      
+          <div class="codeLabel">göster</div>
+      
+          <iframe id="resultFrame"></iframe>
+      
+        </div>
+      
+      </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
